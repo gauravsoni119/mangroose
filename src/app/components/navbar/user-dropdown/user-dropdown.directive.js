@@ -27,7 +27,8 @@
         }
     }
     /* @ngInject */
-    function UserDropdownController () {
-        console.log('user dropdown directive init');
+    UserDropdownController.inject = ['$log'];
+    function UserDropdownController ($log) {
+        $log.info('user dropdown directive init');
     }
 })();

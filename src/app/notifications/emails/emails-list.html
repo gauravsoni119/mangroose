@@ -1,0 +1,23 @@
+<li class="dropdown" uib-dropdown>
+    <a ng-href="#" class="dropdown-toggle" uib-dropdown-toggle>
+        <i class="fa fa-envelope" aria-hidden="true"></i>
+        <span class="label label-success">{{notificationEmailList.totalEmailNotifications}}</span>
+    </a>
+    <ul class="dropdown-menu" uib-dropdown-menu>
+            <li class="header notification-header">You have {{notificationEmailList.totalEmailNotifications}} messages.</li>
+            <hr>
+            <li ng-repeat="notification in notificationEmailList.emailNotifications">
+                <a href="#">
+                    <h4>{{notification.user}}
+                        <small class="notification-time">
+                            <i class="fa fa-clock-o"></i> {{notification.notificationTime}}
+                        </small>
+                    </h4>
+                    <p>{{notification.message}}</p>
+                </a>
+            </li>
+            <li class="footer" style="text-align: center;">
+                <a href="#">View all</a>
+            </li>
+        </ul>
+</li>

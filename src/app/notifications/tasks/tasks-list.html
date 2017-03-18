@@ -1,0 +1,20 @@
+<li uib-dropdown>
+    <a href="#" class="dropdown-toggle" uib-dropdown-toggle>
+        <i class="fa fa-bell" aria-hidden="true"></i>
+        <span class="label label-danger">{{notificationTaskList.totaltaskNotifications}}</span>
+    </a>
+    <ul class="dropdown-menu" uib-dropdown-menu>
+        <li class="header notification-header">You have {{notificationTaskList.totaltaskNotifications}} tasks.</li>
+        <hr>
+        <li ng-repeat="notification in notificationTaskList.taskNotifications" class="custom-width">
+            <a href="#">
+                <h3 style="font-size: 14px;">{{notification.message}}</h3>
+                <uib-progressbar class="progress xs" value="notification.progress" type="{{notification.type}}"></uib-progressbar>
+            </a>
+            <hr class="custom-hr">
+        </li>
+        <li class="footer" style="text-align: center;">
+            <a href="#">View all</a>
+        </li>
+    </ul>
+</li>

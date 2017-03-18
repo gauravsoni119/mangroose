@@ -27,7 +27,8 @@
         }
     }
     /* @ngInject */
-    function SearchBarController () {
-        console.log('search bar directive init');
+    SearchBarController.inject = ['$log'];
+    function SearchBarController ($log) {
+        $log.info('search bar directive init');
     }
 })();

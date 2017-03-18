@@ -1,0 +1,29 @@
+{
+    "data": [
+        {
+            "id": 1,
+            "message": "5 new members joined today",
+            "icon": "fa fa-users text-aqua"
+        },
+        {
+            "id": 2,
+            "message": "Very long description here that may not fit into the page and may cause design problems",
+            "icon": "fa fa-warning text-yellow"
+        },
+        {
+            "id": 3,
+            "message": "5 new members joined",
+            "icon": "fa fa-users text-red"
+        },
+        {
+            "id": 4,
+            "message": "25 sales made",
+            "icon": "fa fa-shopping-cart text-green"
+        },
+        {
+            "id": 5,
+            "message": "You changed your username",
+            "icon": "fa fa-user text-red"
+        }
+    ]
+}

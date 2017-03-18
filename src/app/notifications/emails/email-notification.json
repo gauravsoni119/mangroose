@@ -1,0 +1,16 @@
+{
+    "data": [
+        {
+            "id": 1,
+            "user": "Support Team",
+            "message": "Why not buy a new awesome theme?",
+            "notificationTime": "5 mins"
+        },
+        {
+            "id": 2,
+            "user": "AdminLTE Design Team",
+            "message": "Why not buy a new awesome theme?",
+            "notificationTime": "2 hours"
+        }
+    ]
+}
