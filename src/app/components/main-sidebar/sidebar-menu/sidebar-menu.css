@@ -1,0 +1,40 @@
+.nav-sidebar {
+    list-style: none;
+    margin-right: -21px;
+    margin-bottom: 20px;
+    margin-left: -20px;
+}
+.nav-sidebar li.header {
+    padding: 10px 25px 10px 15px;
+    font-size: 12px;
+    color: #4b646f;
+    background: #1a2226;
+    text-transform: uppercase;
+}
+.nav-sidebar a {
+    color: #b8c7ce;
+    text-decoration: none;
+}
+.nav-sidebar a:hover {
+    color: #b8c7ce;
+    text-decoration: none;
+}
+.nav-sidebar > li > a:hover, .nav-sidebar > li > a:focus {
+    background-color: #1a2226;
+}
+.nav-sidebar .panel-danger {
+    border: 0px;
+}
+.nav-sidebar .panel-danger > .panel-heading {
+    background-color: #222d32;
+}
+.nav-sidebar .panel-body {
+    background-color: #2c3b41;
+}
+
+.treeview-menu {
+    list-style: none;
+    margin-right: -21px;
+    margin-bottom: 20px;
+    margin-left: -20px;
+}

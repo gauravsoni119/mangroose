@@ -18,6 +18,7 @@
             controllerAs: 'mainSideBar',
             link: link,
             restrict: 'E',
+            replace: true,
             scope: {
             }
         };
