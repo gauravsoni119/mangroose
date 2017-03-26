@@ -19,6 +19,7 @@
             link: link,
             restrict: 'E',
             scope: {
+                'sideMenu': '='
             }
         };
         return directive;
@@ -27,7 +28,10 @@
         }
     }
     /* @ngInject */
-    function SideBarMenuController () {
-        
+    SideBarMenuController.inject = ['$scope']
+    function SideBarMenuController ($scope) {
+        var vm = this;
+        vm.isOpen = false;
+        console.log($scope.sideMenu);
     }
 })();

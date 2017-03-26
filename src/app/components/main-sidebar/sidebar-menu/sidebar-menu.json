@@ -1,0 +1,161 @@
+[
+    {
+        "options": {
+            "title": "Dashboard",
+            "icon": "fa fa-dashboard",
+            "isOpen": false,
+            "content": [
+                {
+                    "options": {
+                        "title": "Dashboard V1"
+                    }
+                },
+                {
+                    "options": {
+                        "title": "Dashboard V1"
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "options": {
+            "title": "Layout Options",
+            "icon": "fa fa-files-o",
+            "isOpen": false,
+            "content": [
+                {
+                    "options": {
+                        "title": "Top Navigation"
+                    }
+                },
+                {
+                    "options": {
+                        "title": "Boxed"
+                    }
+                },
+                {
+                    "options": {
+                        "title": "Fixed"
+                    }
+                },
+                {
+                    "options": {
+                        "title": "Collapseed Slidebar"
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "options": {
+            "title": "Charts",
+            "icon": "fa fa-pie-chart",
+            "isOpen": false,
+            "content": [
+                {
+                    "options": {
+                        "title": "ChartJS"
+                    }
+                },
+                {
+                    "options": {
+                        "title": "Morris"
+                    }
+                },
+                {
+                    "options": {
+                        "title": "Flot"
+                    }
+                },
+                {
+                    "options": {
+                        "title": "Inline charts"
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "options": {
+            "title": "UI Elements",
+            "icon": "fa fa-laptop",
+            "isOpen": false,
+            "content": [
+                {
+                    "options": {
+                        "title": "General"
+                    }
+                },
+                {
+                    "options": {
+                        "title": "Icons"
+                    }
+                },
+                {
+                    "options": {
+                        "title": "Buttons"
+                    }
+                },
+                {
+                    "options": {
+                        "title": "Sliders"
+                    }
+                },
+                {
+                    "options": {
+                        "title": "Timeline"
+                    }
+                },
+                {
+                    "options": {
+                        "title": "Models"
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "options": {
+            "title": "Forms",
+            "icon": "fa fa-edit",
+            "isOpen": false,
+            "content": [
+                {
+                    "options": {
+                        "title": "General Elements"
+                    }
+                },
+                {
+                    "options": {
+                        "title": "Advanced Elements"
+                    }
+                },
+                {
+                    "options": {
+                        "title": "Editors"
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "options": {
+            "title": "Tables",
+            "icon": "fa fa-table",
+            "isOpen": false,
+            "content": [
+                {
+                    "options": {
+                        "title": "Simple tables"
+                    }
+                },
+                {
+                    "options": {
+                        "title": "Data tables"
+                    }
+                }
+            ]
+        }
+    }
+]

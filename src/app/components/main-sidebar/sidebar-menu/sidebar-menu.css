@@ -28,13 +28,18 @@
 .nav-sidebar .panel-danger > .panel-heading {
     background-color: #222d32;
 }
+.nav-sidebar .panel-danger > .panel-heading:hover {
+    background-color: #1a2226;
+}
 .nav-sidebar .panel-body {
     background-color: #2c3b41;
+    padding: 10px;
+    line-height: 2em;
 }
 
 .treeview-menu {
     list-style: none;
     margin-right: -21px;
-    margin-bottom: 20px;
-    margin-left: -20px;
+    /*margin-bottom: 20px;*/
+    margin-left: -25px;
 }

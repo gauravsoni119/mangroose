@@ -8,6 +8,7 @@
       'ngSanitize',
       'ngAria',
       'ngResource',
+      'ngAnimate',
       'ui.router',
       'ui.bootstrap',
       'toastr',

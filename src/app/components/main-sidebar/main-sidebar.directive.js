@@ -28,8 +28,17 @@
         }
     }
     /* @ngInject */
-    MainSideBarController.inject = ['$log'];
-    function MainSideBarController ($log) {
+    MainSideBarController.inject = ['$log', 'SidebarMenuFactory'];
+    function MainSideBarController ($log, SidebarMenuFactory) {
+        var vm = this;
+        vm.sideMenu;
         $log.info('Main side bar directive init');
+        SidebarMenuFactory.getSidebarMenu().then(function(res) {
+            console.log(res);
+            vm.sideMenu = res.data;
+        },
+        function(error) {
+            console.log(error);
+        });
     }
 })();
