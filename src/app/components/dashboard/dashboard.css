@@ -1,0 +1,9 @@
+.align-dashboard-header {
+    margin-top: 60px;
+}
+.page-header > small {
+    font-size: 15px;
+    display: inline-block;
+    padding-left: 4px;
+    font-weight: 300;
+}

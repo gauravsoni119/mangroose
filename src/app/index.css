@@ -12,3 +12,6 @@
 .thumbnail img.pull-right {
   width: 50px;
 }
+.dashboard-background {
+    background-color: #ecf0f5;
+}

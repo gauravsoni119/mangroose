@@ -12,7 +12,9 @@
       'ui.router',
       'ui.bootstrap',
       'toastr',
-      'notificationModule'
+      'ncy-angular-breadcrumb',
+      'notificationModule',
+      'mangroos.dashboard',
     ]);
 
 })();

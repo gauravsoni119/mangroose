@@ -12,7 +12,10 @@
         url: '/',
         templateUrl: 'app/main/main.html',
         controller: 'MainController',
-        controllerAs: 'main'
+        controllerAs: 'main',
+        ncyBreadcrumb: {
+          label: 'Home'
+        }
       });
 
     $urlRouterProvider.otherwise('/');

@@ -1,0 +1,28 @@
+{
+    "data": [
+        {
+            "label": "CPU Traffic",
+            "progress": "90%",
+            "background": "bg-aqua",
+            "icon": "fa-cog"
+        },
+        {
+            "label": "Likes",
+            "progress": "45,00",
+            "background": "bg-red",
+            "icon": "fa-google-plus"
+        },
+        {
+            "label": "CPU Traffic",
+            "progress": 450,
+            "background": "bg-green",
+            "icon": "fa-shopping-cart"
+        },
+        {
+            "label": "CPU Traffic",
+            "progress": "24,00",
+            "background": "bg-yellow",
+            "icon": "fa-users"
+        }
+    ]
+}
